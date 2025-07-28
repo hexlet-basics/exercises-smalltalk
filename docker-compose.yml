@@ -2,9 +2,7 @@
 ---
 
 version: '3'
-
 services:
   exercises:
     build: .
-    image: hexletbasics/exercises-smalltalk:cached
     command: make check
